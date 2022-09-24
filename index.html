@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Keneth COLLARD portfolio.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">a propos</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">mes travaux</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Keneth COLLARD.</h1>
+        <h2 class="hdeuxtitre" >Developpeur Web & mobile</h2>
+        <div id="menu">
+            <a onclick="showabout()">a propos</a>
+            <a onclick="showwork()">mes travaux</a>
+            <a onclick="showcontact()">contact</a>
+        </div>
+        <table>
+                <tr class="logos" >
+                    
+                    <td class="animated zoomIn logos " style="animation-delay:2.2s;"><a class="social logos"><i class="fab fa-python"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-html5"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-css3"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-js"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:3.0s;"><a class="social"><i class="fab fa-wordpress-simple"></i></a></td>
+                    
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>mes travaux.</h1>
+        <section>
+            <h2>Landing page École241 Pro</h2>
+            <p>
+                Dans le cadre de ma formation à l'école 241, j'ai travaillé dans l'équipe qui était mise en place sur le projet École241 Pro et nous avons ensemble réalisé cette landing page ou page d'atterissage qui a sevi à capter les cibles et à les rediriger vers les bons canaux de communications comme le site ou directement vers l'administration. ce projet a été réalisé à l'aide des technologies ci dessous.
+            </p>
+            <div class="projets" >
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+            </div>
+            <div>  <img src="Capture241pro.PNG" alt="">   </div>
+        
+        </div>
+           <a href="https://sparkly-malasada-d7e001.netlify.app/" target="blank"><button class="btn_two">voir le projet</button></a>
+        
+
+        </section> 
+
+        <div class="ligne"></div>
+
+
+        <section>
+            <h2>Site web École241 Pro</h2>
+            <p>
+                Toujours dans le cadre de ma formation à l'école 241, j'ai successivement fait partie de l'équipe technique et managériale de l'École241 Pro dans lesquelles j'ai participé à la réalisation du site de l'École241 Pro.</br>
+                Ce travail a été réalisé à l'aide des technologies ci dessous.
+            </p>
+        <div class="projets" >
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;WORDPRESS</div>
+                <div><i class="fas fa-circle"></i>&nbsp;HTML</div>
+            </div>
+        <div>  <img src="Capture241pro.PNG" alt="">   </div>
+        </div>
+            <button class="btn_two">Voir le site</button>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>a propos.</h1>
+            <section>
+                <h2>a propos de moi</h2>
+                <p class="texte">
+                    Je suis Francois Keneth COLLARD NIAMBI, je suis Gabonais, j'ai 26 ans et je réside à Libreville la capitale politique et administrative du Gabon.
+                    Je suis né et j'ai grandi à Port-Gentil la capitale économique du pays ou j'ai fais tout mon cursus scolaire jusqu'à l'obtention de mon Baccalauréat au lycée THURIAF BANTSANTSA (LTB). Je suis aussi titulaire d'une licence en Management des Opérations Internationales (M.O.I) obtenue à l'Institut National de Sciences de Gestion (INSG), je suis technicien piscicole formé à la Station piscicole de la peyrie et enfin, développeur Web & mobile passioné par le numérique.</br>
+                    Vous voulez en savoir plus sur mon parcours, cliquez sur le lien suivant : <a href="">mon c.v</a> 
+                </p>
+                <p>
+                    Le monde du numérique, n'a plus aucune limite en terme de temps, d'infrastructure de formation ou encore de qualité de formation; En plus d'ete un bon autodidacte, mon passage à l'École241 en 2022 dans la cohorte des développeurs m'aura donné des bases solides tant sur le plan technique que sur le plan managérial qui contribuent encore à mon évolution aujourd'hui. En tant que développeur, le langage <b>python</b> est celui sur lequel je suis le plus concentré, j'ai également de bones compétences en <b>HTML</b>, <b>CSS</b> et <b>JAVASCRIPT</b> ainsi que dans le no code avec les outils de création d'applications et sites <b>Wordpress</b> et <i>ADALO</i>.
+                </p>
+            </section>
+            <section>
+                <h2>Mes compétences</h2>
+                <p>
+                    <ul>
+                        <li>HTML : <span> <progress class="barre1" value="50%" max="200">90%</progress>
+                        </span>95%</li> <br>
+                         <li>CSS :<span> <progress class="barre2" value="50%" max="200">90%</progress>
+                         </span>90%</li> <br>
+                         <li>JAVASCRIPT :<span> <progress class="barre3" value="50%" max="200">45%</progress>
+                         </span>40%</li> <br>
+                        <li>PYTHON :<span> <progress class="barre4" value="50%" max="200">65%</progress>
+                        </span>65%</li> <br>
+                        <li>WORDPRESS :<span> <progress class="barre7" value="50%" max="200">70%</progress>
+                        </span>70%</li> <br>
+                        <li>ADALO :<span> <progress class="barre5" value="50%" max="200">90%</progress>
+                        </span>90%</li> <br>
+                         <li>GITHUB :<span> <progress class="barre6" value="50%" max="200">80%</progress>
+                         </span>80%</li>
+                    </ul>
+                </p>
+            </section>
+        </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>contact.</h1>
+            <section>
+                <h2>Me laisser un message</h2>
+                <p>
+                    <form>
+                        <input type="text" placeholder="nom" required>
+                        <input type="email" placeholder="email" required><br>
+                        <textarea placeholder="Votre message" required rows="5"></textarea><br>
+                        <button class="btn_one">Envoyer</button>
+                    </form> 
+                </p>
+            </section>
+        </div>
+        <div id="footer">
+            Produit par Keneth COLLARD <br> <a href="">lien github</a>
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
