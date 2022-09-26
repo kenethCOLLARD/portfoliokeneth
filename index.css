@@ -56,6 +56,26 @@ img{
     background-color:white;
 }
 
+.floating{
+    animation: floating 6s ease-in-out 3s infinite;
+}
+
+
+@keyframes floating {
+    0% {
+        transform: translateX(0px);
+    }
+    33% {
+         transform: translateX(5px);
+    }
+    66% {
+         transform: translateX(-5px);
+    }
+    100% {
+         transform: translateX(0px);
+    }
+}
+
 
 
 
@@ -134,14 +154,15 @@ img{
 }
 #middle h1 {
     color:rgb(255, 50, 50);
-    font-size:70px;
+    font-size:60px;
     text-decoration:underline;
     margin-top: -60px;
     margin-left:420px;
 }
 .hdeuxtitre{
     margin-top: 30px;
-    margin-left:360px;
+    margin-left:410px;
+    font-size: 37px!important;
 }
 .logos{
     margin-left:300px!important;
@@ -357,18 +378,21 @@ img{
     color:#fff;
 }
 #footer {
-    color:#fff;
+    color:rgb(255, 50, 50);
     width:92vw;
-    padding:5vh 4vw;
-    text-align:right;
+   margin-bottom: 210px;
+   margin-left: 70%;
+   text-decoration: underline;
     position:fixed;
     z-index:1;
     bottom:0;
-    font-size:16px;
+    font-size:17px;
     font-weight:bold;
+    cursor: pointer;
 }
 #footer a {
-    color:rgb(255, 50, 50) ;
+    color:rgb(255, 50, 50);
+    cursor: pointer;
 }
 #particles-js {
     position:fixed;
@@ -404,7 +428,7 @@ img{
         display:none;
     }
     #footer {
-        text-align:center;
+        
     }
     #middle {
         width:90vw;

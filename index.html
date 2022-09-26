@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="faviconkenethcollard.ico" type="images/x-icon" /> 
     <title>Keneth COLLARD portfolio.</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
@@ -24,16 +25,16 @@
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
     </div>
-    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">a propos</a>
-    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">mes travaux</a>
-    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <a id="about" onclick="showabout()" class="animated fadeIn floating " style="animation-delay:2.2s;">A propos</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn floating" style="animation-delay:2.2s;">Mes travaux</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn floating" style="animation-delay:2.2s;">Contact</a>
     <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
         <h1>Keneth COLLARD.</h1>
         <h2 class="hdeuxtitre" >Developpeur Web & mobile</h2>
         <div id="menu">
-            <a onclick="showabout()">a propos</a>
-            <a onclick="showwork()">mes travaux</a>
-            <a onclick="showcontact()">contact</a>
+            <a onclick="showabout()">A propos</a>
+            <a onclick="showwork()">Mes travaux</a>
+            <a onclick="showcontact()">Contact</a>
         </div>
         <table>
                 <tr class="logos" >
@@ -49,7 +50,7 @@
     </div>
     <div id="work_container" class="container">
         <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
-        <h1>mes travaux.</h1>
+        <h1>Mes travaux.</h1>
         <section>
             <h2>Landing page École241 Pro</h2>
             <p>
@@ -83,20 +84,20 @@
                 <div><i class="fas fa-circle"></i>&nbsp;WORDPRESS</div>
                 <div><i class="fas fa-circle"></i>&nbsp;HTML</div>
             </div>
-        <div>  <img src="Capture241pro.PNG" alt="">   </div>
+        <div>  <img src="WhatsApp Image 2022-09-22 at 09.32.59.jpeg" alt="capture site école241 Pro">   </div>
         </div>
-            <button class="btn_two">Voir le site</button>
+        <a href=""><button class="btn_two">voir le projet</button></a>
         </section>
     </div>
     <div id="about_container" class="container">
             <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
-            <h1>a propos.</h1>
+            <h1>A propos.</h1>
             <section>
-                <h2>a propos de moi</h2>
+                <h2>A propos de moi</h2>
                 <p class="texte">
-                    Je suis Francois Keneth COLLARD NIAMBI, je suis Gabonais, j'ai 26 ans et je réside à Libreville la capitale politique et administrative du Gabon.
-                    Je suis né et j'ai grandi à Port-Gentil la capitale économique du pays ou j'ai fais tout mon cursus scolaire jusqu'à l'obtention de mon Baccalauréat au lycée THURIAF BANTSANTSA (LTB). Je suis aussi titulaire d'une licence en Management des Opérations Internationales (M.O.I) obtenue à l'Institut National de Sciences de Gestion (INSG), je suis technicien piscicole formé à la Station piscicole de la peyrie et enfin, développeur Web & mobile passioné par le numérique.</br>
-                    Vous voulez en savoir plus sur mon parcours, cliquez sur le lien suivant : <a href="">mon c.v</a> 
+                    Je suis Francois Keneth COLLARD NIAMBI, je suis Gabonais, j'ai 25 ans et je réside à Libreville la capitale politique et administrative du Gabon.
+                    Je suis né et j'ai grandi à Port-Gentil la capitale économique du pays ou j'ai fais tout mon cursus scolaire jusqu'à l'obtention de mon Baccalauréat au lycée THURIAF BANTSANTSA (LTB). Je suis un développeur Web & web mobile passioné par le numérique, formé à l'École 241, je suis aussi titulaire d'une licence en Management des Opérations Internationales (M.O.I) obtenue à l'Institut National de Sciences de Gestion (INSG) et par ailleurs technicien piscicole formé à la Station piscicole de la peyrie. </br>
+                     
                 </p>
                 <p>
                     Le monde du numérique, n'a plus aucune limite en terme de temps, d'infrastructure de formation ou encore de qualité de formation; En plus d'ete un bon autodidacte, mon passage à l'École241 en 2022 dans la cohorte des développeurs m'aura donné des bases solides tant sur le plan technique que sur le plan managérial qui contribuent encore à mon évolution aujourd'hui. En tant que développeur, le langage <b>python</b> est celui sur lequel je suis le plus concentré, j'ai également de bones compétences en <b>HTML</b>, <b>CSS</b> et <b>JAVASCRIPT</b> ainsi que dans le no code avec les outils de création d'applications et sites <b>Wordpress</b> et <i>ADALO</i>.
@@ -126,21 +127,21 @@
         </div>
           <div id="contact_container" class="container">
             <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
-            <h1>contact.</h1>
+            <h1>Contact.</h1>
             <section>
                 <h2>Me laisser un message</h2>
                 <p>
                     <form>
-                        <input type="text" placeholder="nom" required>
+                        <input type="text" placeholder="nom complet" required>
                         <input type="email" placeholder="email" required><br>
                         <textarea placeholder="Votre message" required rows="5"></textarea><br>
-                        <button class="btn_one">Envoyer</button>
+                        <a href="mailto:niambifrancois20@gmail.com"><button href="mailto:niambifrancois20@gmail.com" class="btn_one">Envoyer</button></a> 
                     </form> 
                 </p>
             </section>
         </div>
         <div id="footer">
-            Produit par Keneth COLLARD <br> <a href="">lien github</a>
+            <a target="blank" href="CVKenethCOLLARD.pdf">Télécharger mon cv</a>
         </div>
     <script src="index.js" type="text/javascript"></script>
     <script src="particles.js"></script>
